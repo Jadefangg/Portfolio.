@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sartaj Singh's contact.</title>
+    <!--<STYLE> h1{color:aqua;}</STYLE>-->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="stylecontact.css">
+    <link rel="stylesheet" href="styleprodcution.css"/>
+</head>
+<link rel="shortcut icon" href="c:\Users\Sartaj\Desktop\favicon-32x32.png">
+<body>
+  
+    <div id="IntroC"> Feel free to contact me and drop me a message.</div>
+    <div id="email1"> email: <a href="mailto:sartajsingh8@gmail.com">sartajsingh8@gmail.com </a></div>
+    <br>
+    <div id="phone"> Phone no.- <a href="9779448144" role="Phone">9779448144</a></div> <!--cannot understand what the problem is here with accessibility so I have added a role tag for the screen reader, I dont know if 'phone' would be recogonised-->
+    <br>
+    <div id="contact"><a href="mailto:sartajsingh8@gmail.com">Contact me</a> </div>
+    <form action="" method="post">
+        <label for="my-input" id="email">E-mail: </label>
+        <input id="my-input" required>
+      <br>
+        <label for="my-input" id="Telephone">Telephone: </label>
+        <input id="my-input" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" ><!--can be used for better sementics--> 
+       
+    </br>  
+    </form>
+    <form>
+        <label for="my-input" id="message">Message: </label>
+        <textarea id="my-input" maxlength="500"> </textarea>
+      
+        <input id="my input" type="submit" value="Send message" required> <!--not sure if input id is needed here but I have used it anyway-->
+      </form>
+
+      <br>
+      <br>
+      
+      <button type="button" id="contactb" >Press me</button> <br><br>
+      <img id="openhand"  src="C:\Users\Sartaj\Desktop\vscode\img\img_3094.jpg">
+      <script src="js/tota11y.min.js"></script> <!--tota11y-->
+
+    </body>
+    </html>
+    </html>
