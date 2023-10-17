@@ -246,9 +246,7 @@ height: 100%;
     font-size: larger;
 }
 #ind{
-  
-  max-width: 100vh;
-  max-height: 400px;
+  flex-direction: row;
   margin: auto;
   justify-content: center;
   display: flex;
