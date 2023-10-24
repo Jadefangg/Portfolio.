@@ -266,17 +266,14 @@ height: 100%;
     transition: all .4s ease;
 }
 #mountains{
-  opacity: 0;
- 
-  left: 1250px;
-      top: 300px;
-  width: 145px;
-  height: 225px;
-  
+  opacity: 2%;
+  width: 75px;
+  height: 95px;
   border-radius: 30px;
-  -webkit-transition: all .4s ease;
-  -o-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+    
 }
 #tv3:hover{
   -webkit-box-shadow: rgb(89, 87, 196) 0px 0px 0px 3px, rgb(218, 152, 108) 0px 0px 0px 6px, rgb(221, 32, 28) 0px 0px 0px 9px, rgb(219, 138, 196) 0px 0px 0px 12px, rgb(218, 211, 127) 0px 0px 0px 15px;
