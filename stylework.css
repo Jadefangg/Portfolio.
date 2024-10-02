@@ -23,21 +23,15 @@ font-family: fantasy;
 font-style: oblique ;
 }
 
-#boundary{  
-  border: solid 10px cornflowerblue;
+#boundary{   margin: 20px;
   border-radius: 50px;
   align-self: center;
    align-items: center;
-   padding: 300px;
-    width: 1800px;
-    height: 600px;
-    background-color: rgb(200, 234, 238);
-    display:flex;
+   padding: 10px;
+   display:flex;
     flex-direction: row;
-    justify-content: 
-    
-  
- }  
+    justify-content: space-evenly;
+    }  
  
  /*@media (max-width:1280px)
   {
@@ -85,11 +79,13 @@ font-style: oblique ;
               20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
               30px -30px 0 -3px var(--background), 30px -30px var(--orange),
               40px -40px 0 -3px var(--background), 40px -40px var(--red);
+              transition: all .5s ease-in-out;
       }
       
       #box1:hover {
         animation: shadow-wave 1s ease infinite;
         color: white;
+        transform: rotate(360deg);
       }
       
       
@@ -138,16 +134,6 @@ font-style: oblique ;
         }
         
       }
-      
-      
-       
-      
-     
-      
-    
-      
-    
-
 @media (min-width:320px) and (max-width:480px)
 {
         #box1{
@@ -216,11 +202,14 @@ font-style: oblique ;
               20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
               30px -30px 0 -3px var(--background), 30px -30px var(--orange),
               40px -40px 0 -3px var(--background), 40px -40px var(--red);
+        transition: all .3s ease-in;
       }
       
       #box2:hover {
         animation: shadow-wave .65s ease infinite;
         color:aquamarine;
+        border-radius: 60%;
+        font-size: 25px;
       }
       
       
@@ -270,10 +259,6 @@ font-style: oblique ;
         }
         
       }
-      
-      
-      
-   
 @media (min-width:320px) and (max-width:480px)
 {
         #box2{
@@ -326,10 +311,6 @@ font-style: oblique ;
             border-radius: 25px;
         }
     }
-
-       
-    
-
 /* --------------------------------------------------------------------------------------------------*/
 
 #box3{
@@ -347,11 +328,14 @@ font-style: oblique ;
               20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
               30px -30px 0 -3px var(--background), 30px -30px var(--orange),
               40px -40px 0 -3px var(--background), 40px -40px var(--red);
+              transition: all .3s ease-in;
       }
       
       #box3:hover {
         animation: shadow-wave 1s ease infinite;
         color: chartreuse;
+        font-family: monospace;
+        font-size: 16px;
       }
       
       
@@ -551,4 +535,13 @@ font-style: oblique ;
           40px -50px 0 -3px var(--background), 40px -40px var(--red);
       }
       
+    }
+    #f3{
+      display: block;
+      text-align: center;
+      font-size: 45px ;
+      font-family:'Times New Roman', Times, serif;
+      color: antiquewhite;
+      font-style: italic;
+      box-sizing: border-box;
     }

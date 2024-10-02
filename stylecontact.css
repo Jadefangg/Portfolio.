@@ -1,5 +1,5 @@
-#IntroC{
-    align-items: baseline;
+#IntroC{ margin: auto;
+    
     padding: 20px;
     font-size: 35px;
     font-family:monospace;
@@ -7,7 +7,7 @@
     border: none;
     }
 
-    #email1{
+    #email1{ margin: auto;
         color: darkmagenta;
         padding: 10px;
         font-family: monospace;
@@ -16,6 +16,7 @@
         border-radius: 10px;
     }
     #phone{
+        margin: auto;
         color: orange;
         padding: 10px;
         font-family: monospace;
@@ -23,7 +24,7 @@
         border: solid white;
         border-radius: 10px;
     }
-    #contact{ 
+    #contact{ margin: auto;
         color: aqua;
         padding: 10px;
           cursor:crosshair; 
@@ -31,17 +32,17 @@
         font-size: 20px;
         border: solid white;
         border-radius: 10px;}
-#email{
+#email{margin: auto;
     font-family: fantasy;
     font-size: 20px;
     padding: 20px;
 }
-#Telephone{
+#Telephone{margin: auto;
     font-size: 20px;
     font-family: fantasy;
     padding: 20px;
 }
-#message{
+#message{margin: auto;
     font-size: 20px;
     position: relative;
     left:20px;
@@ -52,26 +53,18 @@
 button {border-radius: 15px;
     padding:15px;
     background-color: rgb(26, 122, 122);
-
+  width: 100px;
     box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
-
+    margin: auto;
     transition: all 1s ease;
 
 }
-button:hover{
-    background-color: rgb(164, 107, 38);
-    color: rgb(212, 217, 216);
-    width: 200px;
-    text-align: center;
-    cursor:grab;
-    border-radius: 50px;
-    
 
-}
 
 body{background-color: rgb(182, 218, 249);}
 #openhand{
-    opacity: 20%;
+    margin: auto;
+    opacity: 2%;
     align-self: center;
     bottom: 10px;
     width:600px;
@@ -83,7 +76,7 @@ body{background-color: rgb(182, 218, 249);}
     align-self: center;
 }
 #openhand{
-    transition-duration: 1s;
+    transition-duration: .5s;
     transition-delay: 0s;
     width: 650px;
     box-shadow: 10px 10px rgb(75, 64, 224);
