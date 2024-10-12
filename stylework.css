@@ -84,9 +84,10 @@ font-style: oblique ;
       
       #box1:hover {
         animation: shadow-wave 1s ease infinite;
-        color: white;
+        color: darkgreen;
         transform: rotate(360deg);
-       font-size: 20px;
+       font-size: 17px;
+       font-family: monospace;
       }
       
       
@@ -207,10 +208,11 @@ font-style: oblique ;
       }
       
       #box2:hover {
-        animation: shadow-wave .65s ease infinite;
+        animation: shadow-wave .5s ease infinite;
         color:aquamarine;
         border-radius: 60%;
-        font-size: 25px;
+        font-size: 15px;
+        font-family: monospace;
       }
       
       
