@@ -19,12 +19,20 @@
   --red: #FF5555;
 } 
 #workheading{
-  color: aliceblue;
-  padding: 15px;
-  font-size: 100px;
+color:bisque;
+padding: 25px;
+font-size: 85px;
 text-align: center;
 font-family: 'lofie';
-font-style: oblique ;
+font-weight: lighter;
+line-height: .8;
+letter-spacing: 65px;
+transition: all .1s ease-in-out;
+
+
+}
+#workheading:hover{
+  letter-spacing: 8px;
 }
 
 #boundary{   margin: 20px;
@@ -68,7 +76,11 @@ font-style: oblique ;
 
 
 #box1{
-     font-size:22px
+     font-size:20px;
+     font-weight: lighter;
+     font-family: 'lofie';
+     font-stretch: ultra-expanded;
+     overflow: hidden;
   text-align: center;      
   background-color: var(--background);
         display: block;
@@ -83,16 +95,17 @@ font-style: oblique ;
               20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
               30px -30px 0 -3px var(--background), 30px -30px var(--orange),
               40px -40px 0 -3px var(--background), 40px -40px var(--red);
-              transition: all .5s ease-in-out;
+              transition: all .4s ease-in-out;
       }
       
       #box1:hover {
-        background-color: var(--primary);
-        animation: shadow-wave 1s ease infinite;
-        color: darkgreen;
+        background-color: maroon;
+        animation: shadow-wave .8s ease infinite;
+        color: bisque;
         transform: rotate(360deg);
        font-size: 15px;
        font-family: monospace;
+       
       }
       
       
@@ -325,17 +338,18 @@ font-style: oblique ;
 /* --------------------------------------------------------------------------------------------------*/
 
 #box3{
- font-size: 21px
+  font-family: 'lofie';
+ font-size: 21px;
     text-align: center;
-        background-color: var(--background);
+        background-color:bisque;
         display: block;
         width: 200px;
         min-height: 200px;
-        cursor: pointer;
         padding: 25px;
         margin: 55px;
         border: 3px solid var(--primary);
         border-radius: 15px;
+        overflow: hidden;
         box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
               20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
               30px -30px 0 -3px var(--background), 30px -30px var(--orange),
@@ -344,10 +358,11 @@ font-style: oblique ;
       }
       
       #box3:hover {
-        animation: shadow-wave 1s ease infinite;
-        color: chartreuse;
+        animation: shadow-wave .6s ease infinite;
+        background-color: bisque;
+        color: maroon;
         font-family: monospace;
-        font-size: 16px;
+        font-size: 14px;
       }
       
       
@@ -552,7 +567,7 @@ font-style: oblique ;
       display: block;
       text-align: center;
       font-size: 45px ;
-      font-family:'Times New Roman', Times, serif;
+      font-family:'lofie';
       color: antiquewhite;
       font-style: italic;
       box-sizing: border-box;
