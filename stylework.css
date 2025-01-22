@@ -5,19 +5,24 @@
 
 
 /*--------------------------------*/
+body{
+  background-color: #08640d;
+}
+
 @font-face {
   font-family: 'lofie';
   src: url('fonts/caffie-lofie.otf') format('opentype');
 }
-:root {
-  --primary: #db5b1b;
+ :root {
+  --primary: #090b1f;
   --secondary: #192824;
   --background: #08640d;
   --green: #f31515;
   --yellow: #FFD913;
-  --orange: #FF9C55;
+  --orange: #FF9C55; 
   --red: #FF5555;
 } 
+
 #workheading{
 color:bisque;
 padding: 25px;
@@ -76,25 +81,26 @@ transition: all .1s ease-in-out;
 
 
 #box1{
+  background-color: wheat;
+  color: maroon;
      font-size:20px;
      font-weight: lighter;
      font-family: 'lofie';
      font-stretch: ultra-expanded;
      overflow: hidden;
   text-align: center;      
-  background-color: var(--background);
         display: block;
         min-width: 150px;
         min-height: 200px;
         cursor:pointer;
         padding: 25px;
-        margin: 55px;                                                                      /*calc(50vh - 30px) auto 0 auto;*/
-        border: 3px solid var(--primary);
+        margin: 55px;                                                 /*calc(50vh - 30px) auto 0 auto;*/
+        border: 3px solid rgba(39, 9, 208, 0.873);
         border-radius: 10px;
-        box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
-              20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
-              30px -30px 0 -3px var(--background), 30px -30px var(--orange),
-              40px -40px 0 -3px var(--background), 40px -40px var(--red);
+        box-shadow: 10px -10px 0 -3px violet, 10px -10px var(--green),
+              20px -20px 0 -3px purple, 20px -20px var(--yellow),
+              30px -30px 0 -3px plum, 30px -30px var(--orange),
+              40px -40px 0 -3px maroon, 40px -40px var(--red);
               transition: all .4s ease-in-out;
       }
       
@@ -111,11 +117,11 @@ transition: all .1s ease-in-out;
       
       @keyframes shadow-wave {
         0% {
-          border: 3px solid var(--primary);
+          border: 3px solid firebrick;
           box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
             20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
             30px -30px 0 -3px var(--background), 30px -30px var(--orange),
-            40px -40px 0 -3px var(--background), 40px -40px var(--red);
+            40px -40px 0 -3px firebrick, 40px -40px var(--red);
         }
         20% {
           border: 3px solid var(--red);
@@ -157,7 +163,6 @@ transition: all .1s ease-in-out;
 @media (min-width:320px) and (max-width:480px)
 {
         #box1{
-            background-color: cornflowerblue;
             width: 400px;
             height: 150px;
             border-style: double;
@@ -167,7 +172,6 @@ transition: all .1s ease-in-out;
     @media (min-width:481px) and (max-width:768px)
     {
             #box1{
-                background-color: cornflowerblue;
                 width: 400px;
                 height: 150px;
                 border-style: solid;
@@ -177,7 +181,6 @@ transition: all .1s ease-in-out;
         @media (min-width:769px) and (max-width:1024px)
 {
         #box1{
-            background-color: rgb(134, 172, 244);
             width: 400px;
             height: 150px;
             border-style: double;
@@ -187,7 +190,6 @@ transition: all .1s ease-in-out;
     @media (min-width:1025px) and (max-width:1200px)
 {
         #box1{
-            background-color: rgb(164, 182, 214);
             width: 400px;
             height: 150px;
             border-style: solid;
@@ -197,7 +199,6 @@ transition: all .1s ease-in-out;
     @media (min-width:1201px) 
 {
         #box1{
-            background-color: rgb(184, 203, 238);
             width: 400px;
             height: 150px;
             border-style: double;
@@ -209,8 +210,9 @@ transition: all .1s ease-in-out;
 
 #box2{
        font-family: "lofie";
-       font-size: 14px;
-       
+       font-size: 16px;
+       background-color: rgb(83, 161, 77);
+       overflow: hidden;
        text-align: center;
         display: block;
         width: 400px;
@@ -220,10 +222,10 @@ transition: all .1s ease-in-out;
         margin: 55px;
         border: 3px solid var(--primary);
         border-radius: 10px;
-        box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
-              20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
-              30px -30px 0 -3px var(--background), 30px -30px var(--orange),
-              40px -40px 0 -3px var(--background), 40px -40px var(--red);
+        box-shadow: 10px -10px 0 -3px green, 10px -10px mediumaquamarine,
+              20px -20px 0 -3px mediumseagreen, 20px -20px mediumspringgreen,
+              30px -30px 0 -3px mediumturquoise, 30px -30px rgb(148, 179, 93),
+              40px -40px 0 -3px lightseagreen, 40px -40px darkturquoise;
         transition: all .25s ease-in;
       }
       
@@ -232,7 +234,7 @@ transition: all .1s ease-in-out;
         animation: shadow-wave .55s ease infinite;
         color:white;
         border-radius: 30%;
-        font-size: 14.4px;
+        font-size: 14px;
         font-family: monospace;
       }
       
@@ -286,7 +288,6 @@ transition: all .1s ease-in-out;
 @media (min-width:320px) and (max-width:480px)
 {
         #box2{
-            background-color: rgb(176, 85, 207);
             width: 330px;
             height: 110px;
             border-style: solid;
@@ -297,7 +298,6 @@ transition: all .1s ease-in-out;
     @media (min-width:481px) and (max-width:768px)
     {
             #box2{
-                background-color: rgb(154, 92, 175);
                 width: 330px;
                 height: 110px;
                 border-style: dashed;
@@ -307,7 +307,6 @@ transition: all .1s ease-in-out;
         @media (min-width:769px) and (max-width:1024px)
         {
                 #box2{
-                    background-color: rgb(176, 136, 190);
                     width: 330px;
                     height: 110px;
                     border-style: solid;
@@ -318,7 +317,6 @@ transition: all .1s ease-in-out;
             @media (min-width:1025px) and (max-width:1200px)
 {
         #box2{
-            background-color: rgb(61, 41, 68);
             width: 330px;
             height: 110px;
             border-style: dashed;
@@ -328,7 +326,6 @@ transition: all .1s ease-in-out;
     @media (min-width:1201px) 
 {
         #box2{
-            background-color: rgb(198, 160, 211);
             width: 330px;
             height: 110px;
             border-style: solid;
